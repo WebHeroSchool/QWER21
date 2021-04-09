@@ -13,13 +13,14 @@
     width: 190px;
     height: 35px;
     background: url('img/logo.svg');
+    margin-top: -10px;
 }
 
 .header {
     padding: 40px 0;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 60px;
+    margin-bottom: 190px;
 }
 
 .menu {
@@ -31,10 +32,11 @@
 
 .menu__item {
     position: relative;
-    margin-right: 26px;
+    margin-right: 27px;
     color: #000;
     text-decoration: none;
     transition: opacity 0.5s;
+    font-size: 18px;
 }
 
 .menu__item:last-child {
@@ -42,24 +44,27 @@
 }
 
 .main__title {
+    padding-top: 68px;
     font-family: pt_serifbold;
     font-weight: 700;
-    font-size: 50px;
-    margin-bottom: 40px;
+    font-size: 66px;
+    margin-bottom: 35px;
 }
 
 .main__subtitle {
     font-family: Roboto;
-    font-weight: 500;
-    font-size: 18px;
-    margin-bottom: 41px;
+    font-weight: 400;
+    font-size: 22px;
+    margin-bottom: 55px;
+    width: 455px;
+    height: 52px;
 }
 
 .main__button {
     font-family: Roboto;
     font-weight: 500;
-    font-size: 14px;
-    padding: 14px 16px;
+    font-size: 18px;
+    padding: 18px 26px;
     color: #fff;
     background: #0056EC;
     text-decoration: none;
@@ -89,8 +94,11 @@
 }
 
 .main {
-    padding: 0 63% 115px 0;
+    padding: 0 63% 300px 0;
     background: no-repeat top right url('img/framez.svg');
+    background-size: 770px 656px;
+    margin-top: -60px;
+
 }
 
 .main__title-text_highlight {
@@ -100,3 +108,36 @@
 .main__button:hover {
     opacity: 0.5;
 }
+
+.menu__item__1 {
+    width: 38px;
+    height: 22px;
+}
+
+.menu__item_active {
+    width: 68px;
+    height: 22px;
+}
+
+.menu__item__3 {
+    width: 47px;
+    height: 22px;
+}
+
+.menu__item__4 {
+    width: 36px;
+    height: 22px;
+}
+
+.menu__item_5 {
+    width: 85px;
+    height: 22px;
+}
+
+.image {
+    border: white;
+    padding-bottom: 80px;
+    background: no-repeat top center
+    width: 32px;
+    height: 8px;
+    margin-left: 49%;
